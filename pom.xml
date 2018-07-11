@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.gitee.zhousiwei</groupId>
+    <artifactId>ftp4che</artifactId>
+    <version>6.6</version>
+
+    <name>ftp4che</name>
+    <description>个人博客:https://zhousiwei.gitee.io/</description>
+
+    <properties>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.locales>zh_CN</project.build.locales>
+    </properties>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
+    <!-- 编译版本 -->
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <encoding>${maven.compiler.encoding}</encoding>
+                    <compilerArguments>
+                        <!-- <extdirs>${project.basedir}/src/main/webapp/WEB-INF/lib</extdirs> -->
+                    </compilerArguments>
+                </configuration>
+            </plugin>
+        </plugins>
+        <finalName>ftp4che</finalName>
+    </build>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/JoeyBling/JoeyBling.github.io</url>
+        <connection>git@github.com:JoeyBling/JoeyBling.github.io.git</connection>
+        <developerConnection>https://joeybling.github.io/</developerConnection>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>試毅-思伟</name>
+            <email>2434387555@qq.com</email>
+            <organization>試毅-思伟</organization>
+        </developer>
+    </developers>
+
+</project>
