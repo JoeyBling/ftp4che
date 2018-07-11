@@ -48,9 +48,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/JoeyBling/JoeyBling.github.io</url>
-        <connection>git@github.com:JoeyBling/JoeyBling.github.io.git</connection>
-        <developerConnection>https://joeybling.github.io/</developerConnection>
+        <url>https://gitee.com/zhousiwei/ftp4che</url>
+        <connection>git@gitee.com:zhousiwei/ftp4che.git</connection>
+        <developerConnection>https://zhousiwei.gitee.io/</developerConnection>
     </scm>
 
     <developers>
